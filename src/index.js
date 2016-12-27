@@ -7,6 +7,7 @@ function callbackify (arg1, arg2) {
     arg2.forEach(name => {
       arg1[name] = callbackifyFunction(arg1[name])
     })
+    return arg1
   } else {
     // callbackify(func)
     return callbackifyFunction(arg1)

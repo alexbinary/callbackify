@@ -1,11 +1,23 @@
 {
-  "name": "alexbinary.callbackify",
+  "name": "@alexbinary/callbackify",
+  "version": "2.0.0",
   "description": "Minimalist callbackification 👍",
-  "version": "1.0.0",
+  "keywords": [
+    "callback",
+    "nodeback",
+    "callbackify",
+    "callbackification",
+    "async"
+  ],
+  "homepage": "https://github.com/alexbinary/callbackify#readme",
+  "bugs": {
+    "url": "https://github.com/alexbinary/callbackify/issues",
+    "email": "alexandre@bintz.io"
+  },
+  "license": "MIT",
+  "author": "Alexandre Bintz <alexandre@bintz.io>",
   "main": "src/index.js",
   "repository": "https://github.com/alexbinary/callbackify.git",
-  "author": "Alexandre Bintz <alexandre@bintz.io>",
-  "license": "MIT",
   "scripts": {
     "test": "istanbul cover _mocha",
     "testw": "mocha -w"
