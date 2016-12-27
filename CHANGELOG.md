@@ -8,4 +8,11 @@
 
 ### Non Breaking changes
 
-- add api doc
+- use scoped package name
+- clean package.json
+- clean code
+- README
+  - add full api doc
+  - update Install section for NPM publication
+  - add NPM & GitHub badges
+  - cleanup
