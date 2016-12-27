@@ -4,12 +4,12 @@ Minimalist callbackification 👍
 
 ## Install
 
-Install with npm/yarn :
+Install using npm or yarn :
 
-```
-$ npm install https://github.com/alexbinary/callbackify.git
-
-$ yarn add https://github.com/alexbinary/callbackify.git
+```bash
+npm install @alexbinary/callbackify
+# or
+yarn add @alexbinary/callbackify
 ```
 
 ## Usage
