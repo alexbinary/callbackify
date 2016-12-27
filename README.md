@@ -10,9 +10,9 @@ Minimalist callbackification 👍
 Install using npm or yarn :
 
 ```bash
-npm install @alexbinary/callbackify
+$ npm install @alexbinary/callbackify
 # or
-yarn add @alexbinary/callbackify
+$ yarn add @alexbinary/callbackify
 ```
 
 ## Usage
