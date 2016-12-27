@@ -2,6 +2,8 @@
 
 ## upcoming release
 
+## v2.0.0
+
 ### Breaking changes
 
 - `callbackify(obj, methods)` now returns the `obj`
