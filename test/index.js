@@ -1,11 +1,10 @@
 
 let expect = require('chai').expect
-
 let callbackify = require('./../src/index')
 
 describe('callbackify', function () {
-  describe('callbackify function', function () {
-    it('when function returns success', function (done) {
+  describe('function', function () {
+    it('success', function (done) {
       // ## Setup
       function f (arg) { return Promise.resolve(arg) }
       // ## TEST
@@ -17,7 +16,7 @@ describe('callbackify', function () {
         done()
       })
     })
-    it('when function returns error', function (done) {
+    it('error', function (done) {
       // ## Setup
       function f (arg) { return Promise.reject(arg) }
       // ## TEST
@@ -28,7 +27,7 @@ describe('callbackify', function () {
         done()
       })
     })
-    it('keep unbound `this`', function (done) {
+    it('unbound `this`', function (done) {
       // ## Setup
       function f () { return Promise.resolve(this) }
       // ## TEST
@@ -40,7 +39,7 @@ describe('callbackify', function () {
         done()
       })
     })
-    it('is idempotent', function (done) {
+    it('idempotent', function () {
       // ## Setup
       function f (arg) { return Promise.resolve(arg) }
       // ## TEST
@@ -49,10 +48,9 @@ describe('callbackify', function () {
       // ## Assert
       expect(callbackifiedTwice).to.equal(callbackifiedOnce)
       // ## End
-      done()
     })
     describe('keep promise style', function () {
-      it('function returns success', function (done) {
+      it('success', function (done) {
         // ## Setup
         function f (arg) { return Promise.resolve(arg) }
         // ## TEST
@@ -62,7 +60,7 @@ describe('callbackify', function () {
           // ## End
         }).then(() => done()).catch(done)
       })
-      it('function returns error', function (done) {
+      it('error', function (done) {
         // ## Setup
         function f (arg) { return Promise.reject(arg) }
         // ## TEST
@@ -74,8 +72,8 @@ describe('callbackify', function () {
       })
     })
   })
-  describe('callbackify object methods', function () {
-    it('callbackify methods', function (done) {
+  describe('object methods', function () {
+    it('callbackify', function (done) {
       // ## Setup
       let obj = {
         func1 () { return Promise.resolve(this) },
