@@ -15,7 +15,7 @@ $ yarn add https://github.com/alexbinary/callbackify.git
 ## Usage
 
 ```javascript
-let callbackify = require('alexbinary.callbackify')
+let callbackify = require('@alexbinary/callbackify')
 
 function f () { return Promise.resolve('ok') }
 

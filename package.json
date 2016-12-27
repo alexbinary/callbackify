@@ -1,5 +1,5 @@
 {
-  "name": "alexbinary.callbackify",
+  "name": "@alexbinary/callbackify",
   "version": "1.0.0",
   "description": "Minimalist callbackification 👍",
   "keywords": [
