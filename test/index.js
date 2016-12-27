@@ -116,5 +116,17 @@ describe('callbackify', function () {
         // ## End
       ]).then(() => done()).catch(done)
     })
+    it('return object', function () {
+      // ## Setup
+      let obj = {
+        func1 () { return Promise.resolve(this) },
+        func2 () { return Promise.resolve(this) }
+      }
+      // ## TEST
+      let result = callbackify(obj, ['func1', 'func2'])
+      // ## Assert
+      expect(result).to.equal(obj)
+      // ## End
+    })
   })
 })
