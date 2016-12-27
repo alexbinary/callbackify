@@ -1,4 +1,5 @@
 # callbackify
+
 Minimalist callbackification 👍
 
 ## Install
