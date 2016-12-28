@@ -2,6 +2,11 @@
 
 ## upcoming release
 
+## v2.0.1
+
+- update license date
+- improve doc
+
 ## v2.0.0
 
 ### Breaking changes
