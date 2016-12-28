@@ -3,6 +3,7 @@
 ## upcoming release
 
 - update license date
+- improve doc
 
 ## v2.0.0
 
