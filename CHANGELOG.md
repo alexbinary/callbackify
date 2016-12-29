@@ -2,6 +2,12 @@
 
 ## upcoming release
 
+- add David (DM) badge
+- configure Travis (CI) with automated deploy to NPM
+- add prepublish script
+- change package description
+- minor documentation update
+
 ## v2.0.1
 
 - update license date
